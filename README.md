@@ -3,7 +3,7 @@
 Projeto para Potfolio.
 
 Este é uma pagina simples de login animado, mas que aborda conceitos muito utilizados em grandes apps,
-app esta sendo desenvolvido com intuito de reforças minhas skills básicas de criaçoes de UI.
+app esta sendo desenvolvido com intuito de reforçar minhas skills básicas de criaçoes de UI.
 
 # Descrição
 
