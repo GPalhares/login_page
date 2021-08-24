@@ -22,7 +22,7 @@ app esta sendo desenvolvido com intuito de reforçar minhas skills básicas de c
  ## Aprendizado
 * Dart `null safety`. 
 * Utilização de `setState`.
-* Utilização de `ScrollController`.
+* Utilização de `PageController`.
 * Componentização.
 * Reforço em Orientação a Objetos.
 * Utilização de Animações com **Rive**.
