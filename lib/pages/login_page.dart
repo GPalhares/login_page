@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:rive/rive.dart';
+import '../components/button_login_page.dart';
 import 'home_page.dart';
 
 class LoginPage extends StatefulWidget {
@@ -64,40 +65,22 @@ class _LoginPageState extends State<LoginPage> {
                   decoration: BoxDecoration(
                       color: Colors.red,
                       borderRadius: BorderRadius.circular(100)),
-                  child: ElevatedButton(
-                    style: ButtonStyle(
-                        backgroundColor:
-                            MaterialStateProperty.all<Color>(Colors.redAccent),
-                        shape:
-                            MaterialStateProperty.all<RoundedRectangleBorder>(
-                                RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.circular(15.0),
-                                    side: BorderSide(color: Colors.white30)))),
+                  child: Button(
+                    text: 'Login',
                     onPressed: () {
                       Navigator.push(context,
                           MaterialPageRoute(builder: (_) => HomePage()));
                     },
-                    child: Text('Login',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 20,
-                        )),
+                    color: Colors.pink.shade600,
+                    fontSize: 30,
                   ),
                 ),
               ),
-              ElevatedButton(
-                style: ButtonStyle(
-                    backgroundColor:
-                        MaterialStateProperty.all<Color>(Colors.redAccent),
-                    shape: MaterialStateProperty.all<RoundedRectangleBorder>(
-                        RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(15.0),
-                            side: BorderSide(color: Colors.white30)))),
+              Button(
+                text: 'Forgot Password',
                 onPressed: () {},
-                child: Text(
-                  'Forgot Password',
-                  style: TextStyle(color: Colors.white, fontSize: 15),
-                ),
+                color: Colors.pink.shade600,
+                fontSize: 15,
               ),
               SizedBox(
                 height: 100,

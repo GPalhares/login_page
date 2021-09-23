@@ -14,7 +14,7 @@ app esta sendo desenvolvido com intuito de reforçar minhas skills básicas de c
  ## Desenvolvimento:
  - [x] Tela de login.
  - [ ] HomePage.
- - [x] Aunteticação.
+ - [ ] Aunteticação.
  - [ ] Animações complexas de UI.
  - [x] Utilização do Rive.
 
