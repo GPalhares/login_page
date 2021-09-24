@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:rive/rive.dart';
 import '../components/button_login_page.dart';
-import 'home_page.dart';
+import 'my_home_page.dart';
 
 class LoginPage extends StatefulWidget {
   @override
@@ -11,9 +11,9 @@ class LoginPage extends StatefulWidget {
 class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: Container(
+    return SafeArea(
+      child: Scaffold(
+        body: Container(
           decoration: BoxDecoration(
               image: DecorationImage(
                   image: AssetImage('assets/images/background.png'),
@@ -69,7 +69,7 @@ class _LoginPageState extends State<LoginPage> {
                     text: 'Login',
                     onPressed: () {
                       Navigator.push(context,
-                          MaterialPageRoute(builder: (_) => HomePage()));
+                          MaterialPageRoute(builder: (_) => MyHomePage()));
                     },
                     color: Colors.pink.shade600,
                     fontSize: 30,
