@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:login/pages/forgot_password.dart';
 import 'package:rive/rive.dart';
 import '../components/button_login_page.dart';
 import 'my_home_page.dart';

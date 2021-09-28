@@ -8,7 +8,7 @@ app esta sendo desenvolvido com intuito de reforçar minhas skills básicas de c
 # Descrição
 
  <p align="center">
- <img  width="450" height="625" src="assets/readme/loginscreen.png">
+ <img  width="450" height="625" src="assets/readme/Animation.gif">
 <p/>
 
  ## Desenvolvimento:
