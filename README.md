@@ -12,7 +12,7 @@ app esta sendo desenvolvido com intuito de reforçar minhas skills básicas de c
 <p/>
 
  <p align="center">
- <img  width="420" height="630" src="assets/readme/Drawer.png">
+ <img  width="414" height="736" src="assets/readme/Drawer.png">
 <p/>
 
  ## Desenvolvimento:
