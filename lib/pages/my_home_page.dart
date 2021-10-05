@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'drawer_home_page.dart';
+
 class MyHomePage extends StatefulWidget {
   @override
   _MyHomePageState createState() => _MyHomePageState();
@@ -15,13 +17,6 @@ class _MyHomePageState extends State<MyHomePage> {
       home: SafeArea(
         child: Scaffold(
           appBar: AppBar(
-            leading: IconButton(
-              icon: Icon(
-                Icons.arrow_back,
-                color: darkMode ? Colors.grey[300] : Colors.grey[850],
-              ),
-              onPressed: () => Navigator.of(context).pop(),
-            ),
             elevation: 0,
             backgroundColor: Colors.transparent,
             actions: [
@@ -38,6 +33,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             ],
           ),
+          drawer: DrawerHomePage(),
           backgroundColor: darkMode ? Colors.grey[850] : Colors.grey[300],
           body: Center(
             child: Column(
